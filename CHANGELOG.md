@@ -2,6 +2,10 @@
 
 All notable changes to the "php-docblocker" extension will be documented in this file.
 
+## [2.2.0] - 2021-05-15
+- Added optional align @params statements, `php-docblocker.alignParams` , default value `false`
+- Added optional align @return statement, `php-docblocker.alignReturn` , default value `false`
+
 ## [2.1.0] - 2019-11-19
 - Add should to list of bool return type functions - Thanks @ImClarky
 - Fix issue where functions named with a bool return prefix were incorrectly given bool return type - Thanks @ImClarky
@@ -21,7 +25,7 @@ All notable changes to the "php-docblocker" extension will be documented in this
 - Update configuration description around short names - Thanks @dave470003
 
 ## [1.7.0] - 2018-12-23
-- Add description to snippet to avoid confusion 
+- Add description to snippet to avoid confusion
 - Add option to turn of void return type when the return could not be detected
 - Remove tabstop on variable names generating DocBlocks - Thanks @markjaquith
 
@@ -35,7 +39,7 @@ All notable changes to the "php-docblocker" extension will be documented in this
 - Add list of completion tags to the README.md
 
 ## [1.4.0] - 2018-03-23
-- Allow using vscode variables in your extra tags see list of variables [here](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_variables) for the docs 
+- Allow using vscode variables in your extra tags see list of variables [here](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_variables) for the docs
 
 ## [1.3.3] - 2017-12-22
 - Fixed typo in readme. - Thanks Dominik Liebler
@@ -111,7 +115,7 @@ All notable changes to the "php-docblocker" extension will be documented in this
 ## 0.1.0 - 2017-03-12
 - Initial release
 
-[Unreleased]: https://github.com/neild3r/vscode-php-docblocker/compare/v2.1.0...HEAD
+[2.2.0]: https://github.com/coffeeio/vscode-php-docblocker/compare/v2.0.1...v2.2.0
 [2.1.0]: https://github.com/neild3r/vscode-php-docblocker/compare/v2.0.1...v2.1.0
 [2.0.1]: https://github.com/neild3r/vscode-php-docblocker/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/neild3r/vscode-php-docblocker/compare/v1.9.0...v2.0.0
