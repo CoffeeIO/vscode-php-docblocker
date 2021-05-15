@@ -2,6 +2,9 @@
 
 All notable changes to the "php-docblocker" extension will be documented in this file.
 
+## [2.2.1] - 2021-05-15
+- Fix readme badges
+
 ## [2.2.0] - 2021-05-15
 - Added optional align @params statements, `php-docblocker.alignParams` , default value `false`
 - Added optional align @return statement, `php-docblocker.alignReturn` , default value `false`
@@ -115,6 +118,7 @@ All notable changes to the "php-docblocker" extension will be documented in this
 ## 0.1.0 - 2017-03-12
 - Initial release
 
+[2.2.1]: https://github.com/coffeeio/vscode-php-docblocker/compare/v2.2.0...v2.2.1
 [2.2.0]: https://github.com/coffeeio/vscode-php-docblocker/compare/v2.0.1...v2.2.0
 [2.1.0]: https://github.com/neild3r/vscode-php-docblocker/compare/v2.0.1...v2.1.0
 [2.0.1]: https://github.com/neild3r/vscode-php-docblocker/compare/v2.0.0...v2.0.1

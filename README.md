@@ -10,7 +10,9 @@ Added features:
 
 ---
 
-[![Latest Release](https://vsmarketplacebadge.apphb.com/version-short/coffeeio.php-docblocker-coffeeio.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker-coffeeio) [![Installs](https://vsmarketplacebadge.apphb.com/installs/coffeeio.php-docblocker-coffeeio.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker-coffeeio) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/coffeeio.php-docblocker-coffeeio.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker-coffeeio) [![Build status](https://travis-ci.org/coffeeio/vscode-php-docblocker.svg?branch=master)](https://travis-ci.org/coffeeio/vscode-php-docblocker) [![Coverage status](https://coveralls.io/repos/github/coffeeio/vscode-php-docblocker/badge.svg)](https://coveralls.io/github/coffeeio/vscode-php-docblocker)
+[![Latest Release](https://vsmarketplacebadge.apphb.com/version-short/coffeeio.php-docblocker-coffeeio.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker-coffeeio)
+[![Build status](https://travis-ci.com/coffeeio/vscode-php-docblocker.svg?branch=master)](https://travis-ci.com/coffeeio/vscode-php-docblocker)
+[![Coverage status](https://coveralls.io/repos/github/CoffeeIO/vscode-php-docblocker/badge.svg)](https://coveralls.io/github/CoffeeIO/vscode-php-docblocker)
 
 Basic PHP DocBlocking extension.
 
