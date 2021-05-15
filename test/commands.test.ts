@@ -17,7 +17,7 @@ suite("Command tests", () => {
     test("Command: trigger", () => {
         editor.selection = new Selection(3, 0, 3, 0);
         assert.doesNotThrow(async () => {
-            await commands.executeCommand('php-docblocker.trigger', editor)
+            await commands.executeCommand('php-docblocker-coffeeio.trigger', editor)
         });
     });
 });
