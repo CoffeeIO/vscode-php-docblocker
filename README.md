@@ -1,6 +1,15 @@
-# PHP DocBlocker
+# PHP DocBlocker - CoffeeIO
 
-[![Latest Release](https://vsmarketplacebadge.apphb.com/version-short/neilbrayfield.php-docblocker.svg)](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker) [![Installs](https://vsmarketplacebadge.apphb.com/installs/neilbrayfield.php-docblocker.svg)](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/neilbrayfield.php-docblocker.svg)](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker) [![Build status](https://travis-ci.org/neild3r/vscode-php-docblocker.svg?branch=master)](https://travis-ci.org/neild3r/vscode-php-docblocker) [![Coverage status](https://coveralls.io/repos/github/neild3r/vscode-php-docblocker/badge.svg)](https://coveralls.io/github/neild3r/vscode-php-docblocker)
+This is a forked version of PHP DocBlocker by neilbrayfield(neild3r).
+Added features:
+- Optional alignment of @param statements
+- Optional alignment of @return statement
+
+---
+
+
+
+[![Latest Release](https://vsmarketplacebadge.apphb.com/version-short/coffeeio.php-docblocker.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker) [![Installs](https://vsmarketplacebadge.apphb.com/installs/coffeeio.php-docblocker.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/coffeeio.php-docblocker.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker) [![Build status](https://travis-ci.org/coffeeio/vscode-php-docblocker.svg?branch=master)](https://travis-ci.org/coffeeio/vscode-php-docblocker) [![Coverage status](https://coveralls.io/repos/github/coffeeio/vscode-php-docblocker/badge.svg)](https://coveralls.io/github/coffeeio/vscode-php-docblocker)
 
 Basic PHP DocBlocking extension.
 
@@ -180,8 +189,3 @@ and can be triggered by typing @ then another characted (Provided your vscode se
 | @var                         | @var ${1:mixed}                         |
 | @version                     | @version ${1:1.0.0}                     |
 
-## Future development
-
-It probably wouldn't be too much work to expand this to work with multiple languages. If this is something you are interested in, please pop over to github and add your feedback to the issue [neild3r/vscode-php-docblocker#17](https://github.com/neild3r/vscode-php-docblocker/issues/17).
-
-Please also feel free to suggest new configuration options, I appreciate at this time the extension is mostly set up for my own DocBlock style requirements but more options could be added for other use cases.
