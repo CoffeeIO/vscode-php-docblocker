@@ -61,7 +61,7 @@ export default class Config {
             let props = packageJson.contributes.configuration.properties;
             for (var key in props) {
                 var item = props[key];
-                config[key.replace('php-docblocker.', '')] = item.default;
+                config[key.replace('php-docblocker-coffeeio.', '')] = item.default;
             }
 
             this.data = config;
@@ -86,7 +86,7 @@ export default class Config {
     public get(setting:string)
     {
         if (this.isLive) {
-            return workspace.getConfiguration('php-docblocker').get(setting);
+            return workspace.getConfiguration('php-docblocker-coffeeio').get(setting);
         }
 
         return this.data[setting];
