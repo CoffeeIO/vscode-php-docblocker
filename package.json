@@ -1,11 +1,11 @@
 {
-  "name": "php-docblocker",
-  "displayName": "PHP DocBlocker",
+  "name": "php-docblocker-coffeeio",
+  "displayName": "PHP DocBlocker - CoffeeIO",
   "description": "A simple, dependency free PHP specific DocBlocking package",
   "version": "2.1.0",
   "license": "MIT",
-  "publisher": "neilbrayfield",
-  "author": "Neil Brayfield <dev@brayfield.uk>",
+  "publisher": "coffeeio",
+	"author": "Mathias Grundtvig Andreasen <mgapcdev@gmail.com>",
   "engines": {
     "vscode": "^1.17.0"
   },
@@ -23,17 +23,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/neild3r/vscode-php-docblocker.git"
+    "url": "https://github.com/coffeeio/vscode-php-docblocker.git"
   },
   "bugs": {
-    "url": "https://github.com/neild3r/vscode-php-docblocker/issues"
+    "url": "https://github.com/coffeeio/vscode-php-docblocker/issues"
   },
   "icon": "images/logo.png",
   "main": "./out/src/extension",
   "contributes": {
     "commands": [
       {
-        "command": "php-docblocker.trigger",
+        "command": "php-docblocker-coffeeio.trigger",
         "title": "Insert PHP Docblock"
       }
     ],
@@ -41,62 +41,62 @@
       "type": "object",
       "title": "PHP DocBlocker configuration",
       "properties": {
-        "php-docblocker.gap": {
+        "php-docblocker-coffeeio.gap": {
           "type": "boolean",
           "default": true,
           "description": "If there should be a gap between the description and tags"
         },
-        "php-docblocker.returnGap": {
+        "php-docblocker-coffeeio.returnGap": {
           "type": "boolean",
           "default": false,
           "description": "If there should be a gap between params and return"
         },
-        "php-docblocker.returnVoid": {
+        "php-docblocker-coffeeio.returnVoid": {
           "type": "boolean",
           "default": true,
           "description": "Should we return void if there is no detectable return type?"
         },
-        "php-docblocker.extra": {
+        "php-docblocker-coffeeio.extra": {
           "type": "array",
           "default": [],
           "description": "Extra tags you wish to include in every DocBlock"
         },
-        "php-docblocker.useShortNames": {
+        "php-docblocker-coffeeio.useShortNames": {
           "type": "boolean",
           "default": false,
           "description": "Whether you want to use int instead of integer and bool instead of boolean."
         },
-        "php-docblocker.qualifyClassNames": {
+        "php-docblocker-coffeeio.qualifyClassNames": {
           "type": "boolean",
           "default": false,
           "description": "Fully qualifies any data types used in param and returns by reading the namespaces."
         },
-        "php-docblocker.alignParams": {
+        "php-docblocker-coffeeio.alignParams": {
           "type": "boolean",
           "default": false,
           "description": "Vertically aligns param types and names with additional spaces."
         },
-        "php-docblocker.alignReturn": {
+        "php-docblocker-coffeeio.alignReturn": {
           "type": "boolean",
           "default": false,
           "description": "Vertically aligns return with above param statements."
         },
-        "php-docblocker.functionTemplate": {
+        "php-docblocker-coffeeio.functionTemplate": {
           "type": "object",
           "default": null,
           "description": "Specify the default template for functions."
         },
-        "php-docblocker.propertyTemplate": {
+        "php-docblocker-coffeeio.propertyTemplate": {
           "type": "object",
           "default": null,
           "description": "Specify the default template for class variables."
         },
-        "php-docblocker.classTemplate": {
+        "php-docblocker-coffeeio.classTemplate": {
           "type": "object",
           "default": null,
           "description": "Specify the default template for classes."
         },
-        "php-docblocker.author": {
+        "php-docblocker-coffeeio.author": {
           "type": "object",
           "default": {
             "name": "Name",

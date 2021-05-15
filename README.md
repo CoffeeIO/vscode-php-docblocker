@@ -1,9 +1,12 @@
 # PHP DocBlocker - CoffeeIO
 
 This is a forked version of PHP DocBlocker by neilbrayfield(neild3r).
+
 Added features:
 - Optional alignment of @param statements
 - Optional alignment of @return statement
+
+
 
 ---
 
@@ -31,18 +34,18 @@ This extension has no dependencies.
 
 This extension contributes the following settings:
 
-* `php-docblocker.gap`: set to `false` to disable the gap between the description and tags
-* `php-docblocker.returnGap`: set to `true` to add a gap between the param and return tags
-* `php-docblocker.returnVoid`: set to `false` to turn off the automatic void return type when it can't be determined
-* `php-docblocker.extra`: an array of extra tags to add to each DocBlock (These can include tabstops and snippet variables)
-* `php-docblocker.useShortNames`: Whether we should use short type names. e.g. bool or boolean
-* `php-docblocker.qualifyClassNames`: When adding type hints for class names search namespace use statements and qualify the class
-* `php-docblocker.alignParams`: set to `true` to align params vertically and add appropriate spaces after param names
-* `php-docblocker.alignReturn`: set to `true` to align return vertically with above params statements, this setting requires align params to also be active
-* `php-docblocker.author`: An object containing your default author tag settings
-* `php-docblocker.functionTemplate`: See below for how to set up docblock templates
-* `php-docblocker.propertyTemplate`: See below for how to set up docblock templates
-* `php-docblocker.classTemplate`: See below for how to set up docblock templates
+* `php-docblocker-coffeeio.gap`: set to `false` to disable the gap between the description and tags
+* `php-docblocker-coffeeio.returnGap`: set to `true` to add a gap between the param and return tags
+* `php-docblocker-coffeeio.returnVoid`: set to `false` to turn off the automatic void return type when it can't be determined
+* `php-docblocker-coffeeio.extra`: an array of extra tags to add to each DocBlock (These can include tabstops and snippet variables)
+* `php-docblocker-coffeeio.useShortNames`: Whether we should use short type names. e.g. bool or boolean
+* `php-docblocker-coffeeio.qualifyClassNames`: When adding type hints for class names search namespace use statements and qualify the class
+* `php-docblocker-coffeeio.alignParams`: set to `true` to align params vertically and add appropriate spaces after param names
+* `php-docblocker-coffeeio.alignReturn`: set to `true` to align return vertically with above params statements, this setting requires align params to also be active
+* `php-docblocker-coffeeio.author`: An object containing your default author tag settings
+* `php-docblocker-coffeeio.functionTemplate`: See below for how to set up docblock templates
+* `php-docblocker-coffeeio.propertyTemplate`: See below for how to set up docblock templates
+* `php-docblocker-coffeeio.classTemplate`: See below for how to set up docblock templates
 
 ### Templating
 
