@@ -48,12 +48,12 @@
         },
         "php-docblocker-coffeeio.returnGap": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "If there should be a gap between params and return"
         },
         "php-docblocker-coffeeio.returnVoid": {
           "type": "boolean",
-          "default": true,
+          "default": false,
           "description": "Should we return void if there is no detectable return type?"
         },
         "php-docblocker-coffeeio.extra": {
@@ -63,7 +63,7 @@
         },
         "php-docblocker-coffeeio.useShortNames": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Whether you want to use int instead of integer and bool instead of boolean."
         },
         "php-docblocker-coffeeio.qualifyClassNames": {
