@@ -1,18 +1,16 @@
 # PHP DocBlocker - CoffeeIO
 
-This is a forked version of PHP DocBlocker by neilbrayfield(neild3r).
+This is a forked and improved version of PHP DocBlocker by neilbrayfield(neild3r).
+
+![Update PHP Blocker](https://media.giphy.com/media/4BZY0CaLHPi7IUEQ3p/giphy.gif)
 
 Added features:
 - Optional alignment of @param statements
 - Optional alignment of @return statement
 
-
-
 ---
 
-
-
-[![Latest Release](https://vsmarketplacebadge.apphb.com/version-short/coffeeio.php-docblocker.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker) [![Installs](https://vsmarketplacebadge.apphb.com/installs/coffeeio.php-docblocker.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/coffeeio.php-docblocker.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker) [![Build status](https://travis-ci.org/coffeeio/vscode-php-docblocker.svg?branch=master)](https://travis-ci.org/coffeeio/vscode-php-docblocker) [![Coverage status](https://coveralls.io/repos/github/coffeeio/vscode-php-docblocker/badge.svg)](https://coveralls.io/github/coffeeio/vscode-php-docblocker)
+[![Latest Release](https://vsmarketplacebadge.apphb.com/version-short/coffeeio.php-docblocker-coffeeio.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker-coffeeio) [![Installs](https://vsmarketplacebadge.apphb.com/installs/coffeeio.php-docblocker-coffeeio.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker-coffeeio) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/coffeeio.php-docblocker-coffeeio.svg)](https://marketplace.visualstudio.com/items?itemName=coffeeio.php-docblocker-coffeeio) [![Build status](https://travis-ci.org/coffeeio/vscode-php-docblocker.svg?branch=master)](https://travis-ci.org/coffeeio/vscode-php-docblocker) [![Coverage status](https://coveralls.io/repos/github/coffeeio/vscode-php-docblocker/badge.svg)](https://coveralls.io/github/coffeeio/vscode-php-docblocker)
 
 Basic PHP DocBlocking extension.
 
